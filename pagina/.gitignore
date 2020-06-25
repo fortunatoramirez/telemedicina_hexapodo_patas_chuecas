@@ -1,0 +1,4 @@
+#carpetas y archivos que serán ignorados:
+node_modules/
+logs/
+*~
