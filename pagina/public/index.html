@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Quedate en Casa ITT</title>
+	<script src="socket.io/socket.io.js"></script>
+	<script src="main.js"></script>
+</head>
+<body onload="init()">
+    <body style="background-color:white;">
+	<h1>Control Hexapodo: </h1>
+    <input type="text" id="txt_1" style="
+    	BORDER: rgb(198, 98, 205) 2px solid;
+    	FONT-SIZE: 15pt;
+    	FONT-FAMILY: fantasy;
+    	BACKGROUND-COLOR: rgb(255, 255, 255);
+	"> 
+
+	<input type="button" value="Angulo x" id="btn_1" onclick="funcion_1();" style="
+    	BORDER: rgb(198, 98, 205) 2px solid;
+    	FONT-SIZE: 15pt;
+    	FONT-FAMILY: fantasy;
+    	BACKGROUND-COLOR: rgb(239, 104, 248);
+	">  <br><br>
+
+	<input type = "text" id="txt_2" style="
+    	BORDER: rgb(100, 149, 237) 2px solid;
+    	FONT-SIZE: 15pt;
+    	FONT-FAMILY: fantasy;
+    	BACKGROUND-COLOR: rgb(255, 255, 255);
+	">
+
+	<input type="button" value="Angulo y" id="btn_2" onclick="funcion_2();" style="
+    	BORDER: rgb(100, 149, 237) 2px solid;
+    	FONT-SIZE: 15pt;
+    	FONT-FAMILY: fantasy;
+    	BACKGROUND-COLOR: rgb(30, 144, 255);
+	"> <br><br>
+
+    <input type="button" value="ADELANTE" id="btn_adelante" onmousedown="iniciar_movimiento(1)" onmouseup="detener_movimiento()"style="
+        BORDER: rgb(100, 149, 237) 2px solid;
+        FONT-SIZE: 15pt;
+        FONT-FAMILY: fantasy;
+        BACKGROUND-COLOR: rgb(30, 144, 255);
+    ">
+
+    <input type="button" value="IZQUIERDA" id="btn_izquierda" onmousedown="iniciar_movimiento(2)" onmouseup="detener_movimiento()"style="
+        BORDER: rgb(100, 149, 237) 2px solid;
+        FONT-SIZE: 15pt;
+        FONT-FAMILY: fantasy;
+        BACKGROUND-COLOR: rgb(30, 144, 255);
+    ">
+
+    <input type="button" value="DERECHA" id="btn_izquierda" onmousedown="iniciar_movimiento(3)" onmouseup="detener_movimiento()"style="
+        BORDER: rgb(100, 149, 237) 2px solid;
+        FONT-SIZE: 15pt;
+        FONT-FAMILY: fantasy;
+        BACKGROUND-COLOR: rgb(30, 144, 255);
+    ">
+
+
+    	
+</body>
+
+	
+</body>
+</html>
