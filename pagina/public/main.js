@@ -70,7 +70,7 @@ function funcion_2()
 
 /**************************/
 //adelante = 1; izquierda = 2; derecha = 3;
-var tasa = 0.5;   // valores enviados por segundo 
+var tasa = 1;   // valores enviados por segundo 
 var intervalo = null;
 
 function mover(v)
