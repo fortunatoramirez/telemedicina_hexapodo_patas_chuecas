@@ -76,15 +76,17 @@ var intervalo = null;
 function mover(v)
 {
     console.log(v);
+    socket.emit("angulo", v.toString());
 }
 function iniciar_movimiento(v)
 {
     mover(v);
     intervalo = setInterval(function(){mover(v)},1000/tasa); // con función anónima para poder pasar argumentos
 }
-function detener_movimiento()
+function detener_movimiento(v)
 {
     clearInterval(intervalo);
+    socket.emit("angulo", v.toString());
 }
 
 
