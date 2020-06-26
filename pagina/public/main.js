@@ -1,6 +1,17 @@
 var port = 5001;
 var socket;
 
+/*
+
+*********************
+código
+*********************
+
+*/
+
+
+
+
 function init() {
 	try {
 		socket = io.connect('http://201.174.122.203:5001', {'forceNew': true});
