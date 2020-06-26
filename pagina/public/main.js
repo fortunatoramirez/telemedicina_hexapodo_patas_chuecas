@@ -15,7 +15,7 @@ function init() {
 	}
 }
 
-function render(data,data2){
+function render(data,data2,data3,data4){
 
 	var html = "Muestra: "+data;
 	document.getElementById('messages').innerHTML = html;
