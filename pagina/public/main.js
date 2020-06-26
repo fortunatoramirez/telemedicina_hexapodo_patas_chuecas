@@ -33,7 +33,7 @@ function init() {
 	}
 }
 
-function render(data){
+function render(data,data2){
 
 	var html = "Muestra: "+data;
 	document.getElementById('messages').innerHTML = html;
